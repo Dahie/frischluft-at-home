@@ -73,6 +73,8 @@ esphome run frischluft.works.yaml
 docker run --rm -v "${PWD}":/config --device=/dev/ttyUSB0 -it esphome/esphome run frischluft.works.yaml
 ```
 
+__With some USB cables device `/dev/ttyUSB0` may not be available. Try a different cable.__
+
 ### Home Assistant Addon
 
 On the Home Assistant Addon, copy the folder `icon` and `fonts` as well as the `frischluft.works.yaml` file to your esphome folder.

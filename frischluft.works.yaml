@@ -24,6 +24,7 @@ wifi:
 captive_portal:
 
 ota:
+  platform: esphome
 
 mqtt: 
   broker: ${mqtt_broker}
@@ -208,9 +209,11 @@ image:
   - file: "icon/bell-ring.png"
     id: bell
     resize: 48x48
+    type: binary
   - file: "icon/reload.png"
     id: reload
     resize: 32x32
+    type: binary
 
 graph:
   - id: co2_graph
