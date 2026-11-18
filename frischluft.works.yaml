@@ -42,7 +42,7 @@ globals:
     initial_value: '1600'
     restore_value: true
   - id: sound
-    type: boolean
+    type: bool
     initial_value: 'true'
     restore_value: true
   - id: led_brightness
@@ -50,11 +50,11 @@ globals:
     initial_value: '0.5'
     restore_value: true
   - id: nightMode
-    type: boolean
+    type: bool
     initial_value: 'false'
     restore_value: true
   - id: calibrating
-    type: boolean
+    type: bool
     initial_value: 'false'
   - id: lastCo2value
     type: int
